@@ -9,6 +9,7 @@ public class Div {
     }
 
     public int calculate() {
+    	return a/b;
     }
 
 }

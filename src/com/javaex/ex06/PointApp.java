@@ -9,12 +9,15 @@ public class PointApp {
 		Point p3 = new Point(5, 3);
 		Point p4 = p1;
 		
-		System.out.println(p1 == p2);
-		System.out.println(p2 == p3);
-		System.out.println(p3 == p4);
-		System.out.println(p4 == p1);		
-		System.out.println(p1.equals(p2));
-		System.out.println(p4.equals(p1));
+		System.out.println(p1 == p2); //--> f 
+		System.out.println(p2 == p3); // --> f
+		System.out.println(p3 == p4); // --> f
+		System.out.println(p4 == p1); // --> t		
+		System.out.println(p1.equals(p2)); // --> f
+		System.out.println(p4.equals(p1)); // --> t
+		
+		
+		//object 클래스가 가지고 있는 equals 메소드가 실행됨
 	}
 
 }
