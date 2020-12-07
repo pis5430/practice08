@@ -17,7 +17,9 @@ public class PointApp {
 		System.out.println(p4.equals(p1)); // --> t
 		
 		
+		//equals --> 주소 비교 , 주소가 같아야 true, 값이 같아도 같은거 x
 		//object 클래스가 가지고 있는 equals 메소드가 실행됨
+		//object 클래스는 최상위 클래스 이기 때문에 extends를 생략해도된다.
 	}
 
 }
